@@ -25,3 +25,4 @@ TARGET_PREBUILT_KERNEL := device/samsung/sidekick4g/kernel
 BOARD_CUSTOM_RECOVERY_KEYMAPPING:= ../../device/samsung/sidekick4g/recovery_ui.c
 TARGET_USERIMAGES_USE_EXT4 := true
 BOARD_UMS_LUNFILE := /sys/devices/platform/s3c-usbgadget/gadget/lun0/file
+BOARD_HAS_LARGE_FILESYSTEM := true
